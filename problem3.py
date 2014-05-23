@@ -13,7 +13,7 @@ def maxPrimeFactor(num):
         i += 1
     # If this code line is ever reached, the number is a prime number.
     # Should this happen, the number will trace up through the many instances
-    # of the macPrimeFactor() code until it reaches the top.
+    # of the maxPrimeFactor() code until it reaches the top.
     return num
 
 print(str(maxPrimeFactor(600851475143)))
